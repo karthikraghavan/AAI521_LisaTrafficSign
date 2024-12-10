@@ -1,0 +1,13 @@
+train: ../LISA road signs.v1i.yolov11 - 12071/train/images
+val: ../LISA road signs.v1i.yolov11 - 1207/valid/images
+test: ../LISA road signs.v1i.yolov11 - 1207/test/images
+
+nc: 47
+names: ['addedLane', 'curveLeft', 'curveRight', 'dip', 'doNotEnter', 'doNotPass', 'intersection', 'keepRight', 'laneEnds', 'merge', 'noLeftTurn', 'noRightTurn', 'pedestrianCrossing', 'rampSpeedAdvisory20', 'rampSpeedAdvisory35', 'rampSpeedAdvisory40', 'rampSpeedAdvisory45', 'rampSpeedAdvisory50', 'rampSpeedAdvisoryUrdbl', 'rightLaneMustTurn', 'roundabout', 'school', 'schoolSpeedLimit25', 'signalAhead', 'slow', 'speedLimit15', 'speedLimit25', 'speedLimit30', 'speedLimit35', 'speedLimit40', 'speedLimit45', 'speedLimit50', 'speedLimit55', 'speedLimit65', 'speedLimitUrdbl', 'stop', 'stopAhead', 'thruMergeLeft', 'thruMergeRight', 'thruTrafficMergeLeft', 'truckSpeedLimit55', 'turnLeft', 'turnRight', 'yield', 'yieldAhead', 'zoneAhead25', 'zoneAhead45']
+
+roboflow:
+  workspace: dakota-smith
+  project: lisa-road-signs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dakota-smith/lisa-road-signs/dataset/1
